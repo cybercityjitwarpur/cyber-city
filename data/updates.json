@@ -1,0 +1,89 @@
+{
+ "_comment": "हाथ से अपडेट करें। हर प्रविष्टि: title, date, org, note, link (https official). sample:true हटाते ही 'नमूना' बैज हट जाएगा। असत्यापित या नकली सूचना न जोड़ें।",
+ "jobs": [
+  {
+   "title": "नमूना: BPSC की आधिकारिक वेबसाइट पर भर्ती सूचनाएँ देखें",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://www.bpsc.bih.nic.in",
+   "sample": true
+  },
+  {
+   "title": "नमूना: SSC की आधिकारिक वेबसाइट",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://ssc.gov.in",
+   "sample": true
+  }
+ ],
+ "admit": [
+  {
+   "title": "नमूना: UPSC परीक्षा सूचना व एडमिट कार्ड",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://upsc.gov.in",
+   "sample": true
+  }
+ ],
+ "results": [
+  {
+   "title": "नमूना: CBSE परिणाम",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://www.cbse.gov.in",
+   "sample": true
+  },
+  {
+   "title": "नमूना: बिहार बोर्ड (BSEB) पोर्टल",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://biharboardonline.bihar.gov.in",
+   "sample": true
+  }
+ ],
+ "scholarship": [
+  {
+   "title": "नमूना: राष्ट्रीय छात्रवृत्ति पोर्टल (NSP) की नई सूचनाएँ",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://scholarships.gov.in",
+   "sample": true
+  }
+ ],
+ "university": [
+  {
+   "title": "नमूना: UGC अधिसूचनाएँ",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://www.ugc.gov.in",
+   "sample": true
+  }
+ ],
+ "schemes": [
+  {
+   "title": "नमूना: myScheme पर योजनाएँ खोजें",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://www.myscheme.gov.in",
+   "sample": true
+  }
+ ],
+ "general": [
+  {
+   "title": "नमूना: भारत सरकार का राष्ट्रीय पोर्टल",
+   "date": "",
+   "org": "",
+   "note": "data/updates.json में असली सूचना जोड़ें",
+   "link": "https://www.india.gov.in",
+   "sample": true
+  }
+ ]
+}

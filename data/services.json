@@ -1,0 +1,515 @@
+{
+ "_comment": "charge खाली हो तो साइट 'शुल्क दुकान से पूछें' दिखाती है। यहाँ अपनी कीमतें भरें, जैसे \"₹50 से शुरू\".",
+ "services": [
+  {
+   "id": "pan-new",
+   "category": "पहचान पत्र",
+   "title": "PAN कार्ड नया आवेदन सहायता",
+   "title_en": "PAN Card new application",
+   "description": "नया PAN आवेदन भरने में सहायता। PAN जारी करने का निर्णय आयकर विभाग का होता है।",
+   "page": "pan-card.html",
+   "icon": "card",
+   "charge": "",
+   "documents": [
+    "पहचान प्रमाण",
+    "पता प्रमाण",
+    "जन्म तिथि प्रमाण",
+    "पासपोर्ट साइज़ फोटो व हस्ताक्षर",
+    "सक्रिय मोबाइल नंबर/ईमेल"
+   ],
+   "official": [
+    [
+     "NSDL e-Gov",
+     "https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html"
+    ],
+    [
+     "UTIITSL",
+     "https://www.pan.utiitsl.com"
+    ]
+   ],
+   "keywords": "pan card nayi pan application पैन"
+  },
+  {
+   "id": "pan-correction",
+   "category": "पहचान पत्र",
+   "title": "PAN सुधार / पुनः प्रिंट सहायता",
+   "title_en": "PAN correction",
+   "description": "PAN में नाम, जन्म तिथि या पता सुधार के आवेदन में मार्गदर्शन।",
+   "page": "pan-card.html",
+   "icon": "card",
+   "charge": "",
+   "documents": [
+    "मौजूदा PAN की प्रति",
+    "सुधार का प्रमाण दस्तावेज़",
+    "फोटो व हस्ताक्षर"
+   ],
+   "official": [
+    [
+     "आयकर विभाग",
+     "https://www.incometax.gov.in"
+    ]
+   ],
+   "keywords": "pan correction सुधार"
+  },
+  {
+   "id": "voter-new",
+   "category": "पहचान पत्र",
+   "title": "नया वोटर ID पंजीकरण सहायता",
+   "title_en": "New voter registration",
+   "description": "नए मतदाता पंजीकरण का फॉर्म भरने में सहायता।",
+   "page": "voter-id.html",
+   "icon": "users",
+   "charge": "",
+   "documents": [
+    "आयु प्रमाण",
+    "पता प्रमाण",
+    "पासपोर्ट साइज़ फोटो",
+    "मोबाइल नंबर"
+   ],
+   "official": [
+    [
+     "मतदाता सेवा पोर्टल (ECI)",
+     "https://voters.eci.gov.in"
+    ]
+   ],
+   "keywords": "voter id matdata मतदाता epic"
+  },
+  {
+   "id": "voter-correction",
+   "category": "पहचान पत्र",
+   "title": "वोटर ID सुधार व स्थिति जाँच",
+   "title_en": "Voter ID correction & status",
+   "description": "नाम/पता सुधार और आवेदन स्थिति देखने में सहायता।",
+   "page": "voter-id.html",
+   "icon": "users",
+   "charge": "",
+   "documents": [
+    "EPIC नंबर",
+    "सुधार के प्रमाण दस्तावेज़"
+   ],
+   "official": [
+    [
+     "मतदाता सेवा पोर्टल (ECI)",
+     "https://voters.eci.gov.in"
+    ]
+   ],
+   "keywords": "voter correction status"
+  },
+  {
+   "id": "eshram-reg",
+   "category": "सरकारी सेवाएँ",
+   "title": "ई-श्रम कार्ड पंजीकरण सहायता",
+   "title_en": "e-Shram registration",
+   "description": "असंगठित क्षेत्र के श्रमिकों के लिए ई-श्रम पंजीकरण में सहायता।",
+   "page": "e-shram.html",
+   "icon": "brief",
+   "charge": "",
+   "documents": [
+    "आधार से जुड़ा मोबाइल नंबर",
+    "बैंक खाता विवरण",
+    "आयु/पेशे की जानकारी"
+   ],
+   "official": [
+    [
+     "ई-श्रम पोर्टल",
+     "https://eshram.gov.in"
+    ]
+   ],
+   "keywords": "eshram e-shram श्रमिक labour card"
+  },
+  {
+   "id": "eshram-update",
+   "category": "सरकारी सेवाएँ",
+   "title": "ई-श्रम सुधार / विवरण अपडेट",
+   "title_en": "e-Shram update",
+   "description": "ई-श्रम प्रोफ़ाइल में सुधार या विवरण अपडेट का मार्गदर्शन।",
+   "page": "e-shram.html",
+   "icon": "brief",
+   "charge": "",
+   "documents": [
+    "UAN/ई-श्रम विवरण",
+    "सुधार संबंधी दस्तावेज़"
+   ],
+   "official": [
+    [
+     "ई-श्रम पोर्टल",
+     "https://eshram.gov.in"
+    ]
+   ],
+   "keywords": "eshram update सुधार"
+  },
+  {
+   "id": "aadhaar-help",
+   "category": "पहचान पत्र",
+   "title": "आधार संबंधी जानकारी व मार्गदर्शन",
+   "title_en": "Aadhaar guidance",
+   "description": "आधार से जुड़ी जानकारी और अपडेट प्रक्रिया का मार्गदर्शन। आधार नामांकन/अपडेट केवल अधिकृत केंद्र ही कर सकते हैं।",
+   "page": "online-forms.html",
+   "icon": "id",
+   "charge": "",
+   "documents": [
+    "आवश्यकता अनुसार पहचान/पता प्रमाण"
+   ],
+   "official": [
+    [
+     "UIDAI",
+     "https://uidai.gov.in"
+    ]
+   ],
+   "keywords": "aadhaar aadhar आधार uidai"
+  },
+  {
+   "id": "ration-card",
+   "category": "सरकारी सेवाएँ",
+   "title": "राशन कार्ड व योजना आवेदन सहायता",
+   "title_en": "Ration card & scheme help",
+   "description": "राशन कार्ड संबंधी आवेदन व जानकारी में सहायता।",
+   "page": "government-schemes.html",
+   "icon": "file",
+   "charge": "",
+   "documents": [
+    "परिवार के सदस्यों का विवरण",
+    "पता प्रमाण",
+    "आय संबंधी जानकारी (यदि माँगी जाए)"
+   ],
+   "official": [
+    [
+     "बिहार खाद्य आपूर्ति (EPDS)",
+     "https://epds.bihar.gov.in"
+    ]
+   ],
+   "keywords": "ration राशन"
+  },
+  {
+   "id": "certificates",
+   "category": "सरकारी सेवाएँ",
+   "title": "आय / जाति / निवास प्रमाण पत्र आवेदन सहायता",
+   "title_en": "Income, caste, residence certificates",
+   "description": "बिहार सेवा पोर्टल पर प्रमाण पत्र आवेदन में सहायता।",
+   "page": "online-forms.html",
+   "icon": "file",
+   "charge": "",
+   "documents": [
+    "पहचान प्रमाण",
+    "पता प्रमाण",
+    "स्वघोषणा/संबंधित प्रमाण"
+   ],
+   "official": [
+    [
+     "बिहार RTPS",
+     "https://serviceonline.bihar.gov.in"
+    ]
+   ],
+   "keywords": "income caste residence आय जाति निवास प्रमाण पत्र"
+  },
+  {
+   "id": "govt-forms",
+   "category": "सरकारी सेवाएँ",
+   "title": "सरकारी ऑनलाइन फॉर्म भरना",
+   "title_en": "Government online forms",
+   "description": "केंद्र व बिहार सरकार के ऑनलाइन आवेदन भरने में सहायता।",
+   "page": "online-forms.html",
+   "icon": "file",
+   "charge": "",
+   "documents": [
+    "संबंधित आवेदन के अनुसार दस्तावेज़"
+   ],
+   "official": [
+    [
+     "भारत सरकार पोर्टल",
+     "https://www.india.gov.in"
+    ],
+    [
+     "बिहार सरकार",
+     "https://www.bihar.gov.in"
+    ]
+   ],
+   "keywords": "online form फॉर्म भरना"
+  },
+  {
+   "id": "jobs-form",
+   "category": "सरकारी सेवाएँ",
+   "title": "नौकरी / भर्ती फॉर्म भरना",
+   "title_en": "Job application forms",
+   "description": "भर्ती विज्ञापन पढ़कर पात्रता जाँचने और आवेदन भरने में सहायता।",
+   "page": "latest-jobs.html",
+   "icon": "brief",
+   "charge": "",
+   "documents": [
+    "शैक्षणिक प्रमाण पत्र",
+    "जाति/निवास प्रमाण (यदि लागू)",
+    "फोटो व हस्ताक्षर"
+   ],
+   "official": [
+    [
+     "BPSC",
+     "https://www.bpsc.bih.nic.in"
+    ],
+    [
+     "UPSC",
+     "https://upsc.gov.in"
+    ],
+    [
+     "SSC",
+     "https://ssc.gov.in"
+    ]
+   ],
+   "keywords": "job bharti recruitment naukri नौकरी भर्ती vacancy"
+  },
+  {
+   "id": "admit-card",
+   "category": "छात्र सेवाएँ",
+   "title": "एडमिट कार्ड डाउनलोड व प्रिंट",
+   "title_en": "Admit card download",
+   "description": "परीक्षा एडमिट कार्ड डाउनलोड करने और प्रिंट निकालने में सहायता।",
+   "page": "admit-card.html",
+   "icon": "id",
+   "charge": "",
+   "documents": [
+    "पंजीकरण/रोल नंबर",
+    "जन्म तिथि या पासवर्ड (आप स्वयं दर्ज करें)"
+   ],
+   "official": [],
+   "keywords": "admit card एडमिट कार्ड hall ticket"
+  },
+  {
+   "id": "results",
+   "category": "छात्र सेवाएँ",
+   "title": "रिज़ल्ट व मेरिट लिस्ट देखना/प्रिंट",
+   "title_en": "Results & merit lists",
+   "description": "बोर्ड, विश्वविद्यालय व प्रवेश परीक्षा परिणाम देखने व प्रिंट में सहायता।",
+   "page": "results.html",
+   "icon": "bell",
+   "charge": "",
+   "documents": [
+    "रोल नंबर/पंजीकरण संख्या"
+   ],
+   "official": [
+    [
+     "DigiLocker",
+     "https://www.digilocker.gov.in"
+    ]
+   ],
+   "keywords": "result रिजल्ट merit list मेरिट"
+  },
+  {
+   "id": "scholarship",
+   "category": "छात्र सेवाएँ",
+   "title": "छात्रवृत्ति आवेदन सहायता",
+   "title_en": "Scholarship application",
+   "description": "बिहार पोस्ट मैट्रिक, NSP आदि छात्रवृत्ति आवेदन में सहायता।",
+   "page": "scholarship.html",
+   "icon": "cap",
+   "charge": "",
+   "documents": [
+    "आधार/पहचान प्रमाण",
+    "मार्कशीट",
+    "आय व जाति प्रमाण पत्र",
+    "बैंक पासबुक",
+    "कॉलेज का नामांकन प्रमाण"
+   ],
+   "official": [
+    [
+     "राष्ट्रीय छात्रवृत्ति पोर्टल",
+     "https://scholarships.gov.in"
+    ]
+   ],
+   "keywords": "scholarship छात्रवृत्ति nsp post matric"
+  },
+  {
+   "id": "univ-admission",
+   "category": "छात्र सेवाएँ",
+   "title": "कॉलेज / विश्वविद्यालय प्रवेश फॉर्म",
+   "title_en": "College admission forms",
+   "description": "प्रवेश व रजिस्ट्रेशन फॉर्म भरने में सहायता।",
+   "page": "university-services.html",
+   "icon": "cap",
+   "charge": "",
+   "documents": [
+    "मार्कशीट",
+    "प्रमाण पत्र",
+    "फोटो व हस्ताक्षर"
+   ],
+   "official": [
+    [
+     "UGC",
+     "https://www.ugc.gov.in"
+    ]
+   ],
+   "keywords": "admission एडमिशन registration university college"
+  },
+  {
+   "id": "univ-exam",
+   "category": "छात्र सेवाएँ",
+   "title": "परीक्षा फॉर्म व शुल्क भुगतान सहायता",
+   "title_en": "Exam form help",
+   "description": "विश्वविद्यालय परीक्षा फॉर्म भरने की सहायता। अंतिम तिथि विश्वविद्यालय की वेबसाइट पर देखें।",
+   "page": "university-services.html",
+   "icon": "cap",
+   "charge": "",
+   "documents": [
+    "पंजीकरण संख्या",
+    "पिछली मार्कशीट",
+    "फोटो व हस्ताक्षर"
+   ],
+   "official": [],
+   "keywords": "exam form परीक्षा फॉर्म"
+  },
+  {
+   "id": "migration",
+   "category": "छात्र सेवाएँ",
+   "title": "माइग्रेशन / मार्कशीट / प्रमाण पत्र आवेदन",
+   "title_en": "Migration & marksheet",
+   "description": "माइग्रेशन, डुप्लिकेट मार्कशीट आदि आवेदन में मार्गदर्शन।",
+   "page": "university-services.html",
+   "icon": "file",
+   "charge": "",
+   "documents": [
+    "पहचान पत्र",
+    "पुरानी मार्कशीट/प्रवेश पत्र"
+   ],
+   "official": [],
+   "keywords": "migration marksheet माइग्रेशन मार्कशीट"
+  },
+  {
+   "id": "schemes",
+   "category": "सरकारी सेवाएँ",
+   "title": "सरकारी योजनाओं की जानकारी व आवेदन",
+   "title_en": "Government schemes",
+   "description": "पात्रता, दस्तावेज़ व आवेदन प्रक्रिया की जानकारी।",
+   "page": "government-schemes.html",
+   "icon": "shield",
+   "charge": "",
+   "documents": [
+    "योजना के अनुसार"
+   ],
+   "official": [
+    [
+     "myScheme",
+     "https://www.myscheme.gov.in"
+    ]
+   ],
+   "keywords": "yojana yojna योजना scheme"
+  },
+  {
+   "id": "printing",
+   "category": "प्रिंट व फोटो",
+   "title": "ब्लैक-व्हाइट व कलर प्रिंटिंग",
+   "title_en": "Printing",
+   "description": "A4 व अन्य साइज़ में दस्तावेज़ प्रिंट।",
+   "page": "printing-services.html",
+   "icon": "printer",
+   "charge": "",
+   "documents": [
+    "PDF/Word फाइल (Pen-drive या WhatsApp से)"
+   ],
+   "official": [],
+   "keywords": "print प्रिंट color colour"
+  },
+  {
+   "id": "photocopy",
+   "category": "प्रिंट व फोटो",
+   "title": "फोटोकॉपी व स्कैनिंग",
+   "title_en": "Photocopy & scan",
+   "description": "फोटोकॉपी, स्कैन और PDF बनाना।",
+   "page": "printing-services.html",
+   "icon": "printer",
+   "charge": "",
+   "documents": [
+    "मूल दस्तावेज़"
+   ],
+   "official": [],
+   "keywords": "photocopy xerox scan स्कैन फोटोकॉपी"
+  },
+  {
+   "id": "lamination",
+   "category": "प्रिंट व फोटो",
+   "title": "लैमिनेशन",
+   "title_en": "Lamination",
+   "description": "दस्तावेज़ व कार्ड की लैमिनेशन।",
+   "page": "printing-services.html",
+   "icon": "layers",
+   "charge": "",
+   "documents": [
+    "मूल दस्तावेज़"
+   ],
+   "official": [],
+   "keywords": "lamination लैमिनेशन"
+  },
+  {
+   "id": "passport-photo",
+   "category": "प्रिंट व फोटो",
+   "title": "पासपोर्ट साइज़ फोटो",
+   "title_en": "Passport photo",
+   "description": "फॉर्म व पहचान पत्र के लिए सही साइज़ की फोटो।",
+   "page": "photo-services.html",
+   "icon": "camera",
+   "charge": "",
+   "documents": [
+    "—"
+   ],
+   "official": [],
+   "keywords": "photo फोटो passport size"
+  },
+  {
+   "id": "photo-edit",
+   "category": "प्रिंट व फोटो",
+   "title": "फोटो रीसाइज़ / बैकग्राउंड सुधार",
+   "title_en": "Photo editing",
+   "description": "ऑनलाइन फॉर्म के KB/साइज़ नियम के अनुसार फोटो-हस्ताक्षर तैयार करना।",
+   "page": "photo-services.html",
+   "icon": "camera",
+   "charge": "",
+   "documents": [
+    "फोटो/हस्ताक्षर की फाइल"
+   ],
+   "official": [],
+   "keywords": "photo edit resize signature हस्ताक्षर"
+  },
+  {
+   "id": "pvc",
+   "category": "प्रिंट व फोटो",
+   "title": "PVC कार्ड प्रिंटिंग",
+   "title_en": "PVC card printing",
+   "description": "ग्राहक द्वारा दिए गए डिज़ाइन/फोटो के PVC ID कार्ड प्रिंट। सरकारी दस्तावेज़ की नकल/जालसाज़ी वाले कार्ड नहीं बनाए जाते।",
+   "page": "pvc-card.html",
+   "icon": "card",
+   "charge": "",
+   "documents": [
+    "ग्राहक का अपना डिज़ाइन/फोटो"
+   ],
+   "official": [],
+   "keywords": "pvc card id card"
+  },
+  {
+   "id": "resume",
+   "category": "टाइपिंग व रिज्यूमे",
+   "title": "रिज्यूमे / बायोडाटा बनवाना",
+   "title_en": "Resume writing",
+   "description": "हिन्दी/अंग्रेज़ी में रिज्यूमे तैयार करना।",
+   "page": "typing-resume.html",
+   "icon": "type",
+   "charge": "",
+   "documents": [
+    "अपनी शैक्षणिक व अनुभव की जानकारी"
+   ],
+   "official": [],
+   "keywords": "resume cv biodata रिज्यूमे बायोडाटा"
+  },
+  {
+   "id": "typing",
+   "category": "टाइपिंग व रिज्यूमे",
+   "title": "हिन्दी / अंग्रेज़ी टाइपिंग व आवेदन पत्र",
+   "title_en": "Typing & applications",
+   "description": "आवेदन, पत्र, दस्तावेज़ टाइपिंग व फॉर्मेटिंग, PDF/Word कन्वर्ज़न।",
+   "page": "typing-resume.html",
+   "icon": "type",
+   "charge": "",
+   "documents": [
+    "हस्तलिखित/मूल सामग्री"
+   ],
+   "official": [],
+   "keywords": "typing टाइपिंग application आवेदन letter पत्र"
+  }
+ ]
+}
